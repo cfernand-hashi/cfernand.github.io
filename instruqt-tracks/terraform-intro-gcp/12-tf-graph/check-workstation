@@ -1,0 +1,16 @@
+#!/bin/bash -l
+set -e
+
+# Create /tmp/skip-check to disable this check
+if [ -f /tmp/skip-check ]; then
+    rm /tmp/skip-check
+    exit 0
+fi
+
+# Make sure user actually started blast-radius
+BR_PID=$(lsof -i :5000 -F p |awk '/^p/{print substr($1,2);}')
+if [ -z "$BR_PID" ]; then
+    fail-message "Looks like Blast Radius is not running, please start it"
+fi
+
+exit 0

@@ -1,0 +1,18 @@
+#!/bin/bash -l
+set -e
+
+# Create /tmp/skip-check to disable this check
+if [ -f /tmp/skip-check ]; then
+    rm /tmp/skip-check
+    exit 0
+fi
+
+# Make sure Terraform is not still running
+
+if [ -f .terraform.tfstate.lock.info ]; then
+    fail-message "Terraform is still running, please wait for it to finish."
+fi
+
+grep -qL "yourname" /root/hashicat-aws/terraform.tfvars && fail-message "Oops, it looks like you haven't updated your prefix variable yet."
+
+exit 0

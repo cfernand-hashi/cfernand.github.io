@@ -1,0 +1,14 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
+version: "3"
+virtualmachines:
+- name: workstation
+  image: instruqt-hashicorp/ubuntu-2004-base
+  shell: /bin/bash -l
+  machine_type: n1-standard-1
+aws_accounts:
+- name: TF-WORKSHOP
+  managed_policies:
+  - arn:aws:iam::aws:policy/AmazonEC2FullAccess
+  - arn:aws:iam::aws:policy/AmazonVPCFullAccess

@@ -1,0 +1,36 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
+slug: sentinel-for-terraform-v4
+title: Sentinel for Terraform (v4)
+teaser: Learn how to write and test Sentinel policies for Terraform.
+description: |-
+  [Sentinel](https://docs.hashicorp.com/sentinel) allows customers to implement policy-as-code in the same way that Terraform implements infrastructure-as-code.
+
+  Governance and security teams can write Sentinel policies to restrict what can be provisioned in HCP Terraform and Terraform Enterprise workspaces. Sentinel allows these teams to control costs and enforce security standards.
+
+  In this track, you will write and test policies that restrict resources, data sources, and modules provisioned by Terraform in AWS, Azure, and GCP. This version of the track uses the v2 versions of the tfplan, tfstate, and tfconfig Sentinel imports.
+
+  This track is intended for use with these PowerPoint [slides](https://storage.cloud.google.com/instruqt-hashicorp-tracks/sentinel-shared/Sentinel-for-Terraform-v4.pptx) which you should download.
+
+  You should first run the **Sentinel CLI Basics** track which introduces the Sentinel CLI.
+
+  We recommend starting this track when you can set aside at least 4 hours of uninterrupted time. If you find yourself running out of time or are interrupted, we recommend saving all your completed policies outside the track so that you can quickly restore them if forced to begin the track again.
+icon: https://storage.googleapis.com/instruqt-hashicorp-tracks/logo/terraform.png
+tags:
+- terraform
+- sentinel
+owner: hashicorp
+developers:
+- fraser@hashicorp.com
+- roger@hashicorp.com
+- jenna.wong@hashicorp.com
+idle_timeout: 3000
+timelimit: 14400
+lab_config:
+  overlay: false
+  width: 33
+  position: right
+  sidebar_enabled: true
+  feedback_recap_enabled: true
+  loadingMessages: true

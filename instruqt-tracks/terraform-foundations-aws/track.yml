@@ -1,0 +1,32 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
+slug: terraform-foundations
+version: 0.0.1
+title: Terraform Foundations
+teaser: |
+  Introduction to Infrastructure-as-Code
+description: |
+  This Terraform Foundations workshop will cover all the basic concepts of infrastructure-as-code. You will get hands on experience setting up first Terraform template,
+  running basic to intermediate commands and deploying real cloud infrastructure.
+
+  We will also cover the power of storing and managing your infrastructure-as-code in a version control system (VCS) and the concepts of a collaborative GitOps approach
+  for infrastructure changes.
+icon: https://storage.googleapis.com/instruqt-hashicorp-tracks/logo/terraform.png
+tags: []
+owner: hashicorp
+developers:
+- jlinn@hashicorp.com
+- troy@hashicorp.com
+- roger@hashicorp.com
+- jenna.wong@hashicorp.com
+show_timer: true
+idle_timeout: 3000
+timelimit: 14400
+lab_config:
+  overlay: false
+  width: 33
+  position: right
+  sidebar_enabled: true
+  feedback_recap_enabled: true
+  loadingMessages: true

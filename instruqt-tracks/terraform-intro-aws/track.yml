@@ -1,0 +1,33 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
+slug: terraform-intro-aws
+title: Intro to Terraform on AWS
+teaser: |
+  Provision the HashiCat application on AWS Cloud using Terraform.
+description: |-
+  This track will introduce you to Terraform on Amazon Web Services (AWS). We'll learn Terraform setup, basic commands, and gradually build an entire application stack. When you're finished you'll be able to view the HashiCat application in your
+  web browser.
+
+  Kittens as a Service!
+icon: https://storage.googleapis.com/instruqt-hashicorp-tracks/logo/terraform.png
+tags:
+- aws
+- terraform
+- basics
+owner: hashicorp
+developers:
+- sean.carolan@hashicorp.com
+- roger@hashicorp.com
+- syed.quadri@hashicorp.com
+show_timer: true
+idle_timeout: 7200
+timelimit: 14400
+lab_config:
+  overlay: false
+  width: 33
+  position: right
+  sidebar_enabled: true
+  feedback_recap_enabled: true
+  loadingMessages: true
+  hideStopButton: false

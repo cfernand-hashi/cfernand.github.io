@@ -1,0 +1,31 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+slug: sentinel-cli-basics
+title: Sentinel CLI Basics
+teaser: Learn how to use the Sentinel CLI.
+description: |-
+  [Sentinel](https://docs.hashicorp.com/sentinel) allows customers to implement policy-as-code in the same way that Terraform implements infrastructure-as-code.
+
+  Governance and security teams can write Sentinel policies to restrict what can be done in HashiCorp's Enterprise products.
+
+  In this track, you will learn how to use the Sentinel CLI.
+
+  After doing this track, you can learn how to write and test Sentinel policies for Terraform in the **Sentinel for Terraform (v4)** track.
+icon: https://storage.googleapis.com/instruqt-hashicorp-tracks/logo/HashiCorp_Icon_Black.png
+tags:
+- terraform
+- sentinel
+owner: hashicorp
+developers:
+- roger@hashicorp.com
+- jenna.wong@hashicorp.com
+show_timer: true
+idle_timeout: 3000
+timelimit: 14400
+lab_config:
+  overlay: false
+  width: 33
+  position: right
+  sidebar_enabled: true
+  feedback_recap_enabled: true
+  loadingMessages: true
